@@ -207,7 +207,7 @@
       </div>
       <ul>
         <li><a href="index.html">HOME</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
         <li><a href="#">COOKIES POLICY</a></li>
         <li><a href="#">LEGAL TERM</a></li>
       </ul>
@@ -239,6 +239,16 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"></script>
   </div>
+  <script>
+    window.onload = () => {
+      setTimeout(() => {
+        document.querySelector('.preloader').style.display = 'none';
+        document.querySelector('.webpage').style.display = 'block';
+
+      }, 1000)
+    };
+  </script>
+  <!-- Custom JS -->
   <script src="/public/js/script.js"></script>
 </body>
 
