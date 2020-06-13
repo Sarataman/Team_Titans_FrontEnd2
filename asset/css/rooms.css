@@ -7,6 +7,7 @@
 
 body{
   background-color: #151412;
+  font-family: 'Source Sans Pro';
 }
 
 /* NAV BAR */
@@ -53,10 +54,10 @@ nav {
 }
 
 #room-description{
-  display: flex;
+  /* display: flex; */
   margin: auto;
   width: 80%;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin-top: 6.67rem;
 }
 
@@ -72,7 +73,7 @@ nav {
   margin-top: 1.25rem;
   font-size: 1.25rem;
   color: #ffffff;
-  line-height: 25px;
+  line-height: 1.25rem;
 }
 
 #room-description  .room-status{
@@ -82,17 +83,17 @@ nav {
 }
 
 #room-description ul{
-  margin-top: 15px;   
-  margin-left: 16px;
-  margin-right: 20px;
-  padding-right:350px;
+  margin-top: 1.15rem;   
+  margin-left: 1rem;
+  margin-right: 1.85rem;
+  padding-right: 8.125rem; 
 }
 
 #room-description ul li{
   color: #ffffff;
-  line-height: 30px;
+  line-height: 1.84rem;
   font-family: 'Source Sans Pro', sans-serif;
-  margin-left: 16px;
+  margin-left: 1rem;
  
 }
 
